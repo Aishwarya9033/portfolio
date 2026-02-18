@@ -48,3 +48,21 @@ body {
     margin-top: 10px;
     color: #aaa;
 }
+.about {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.about h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.about p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #444;
+}
