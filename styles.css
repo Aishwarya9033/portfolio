@@ -93,3 +93,40 @@ section {
   transform: translateY(30px);
   transition: all 0.5s ease;
 }
+/* Projects Section */
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.project-card {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.project-card h3 {
+  margin-bottom: 10px;
+  color: #8a2be2;
+}
+
+/* Experience Section */
+.experience-box {
+  background: #111;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+.experience-box h3 {
+  color: #8a2be2;
+  margin-bottom: 5px;
+}
